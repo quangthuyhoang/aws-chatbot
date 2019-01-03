@@ -1,0 +1,20 @@
+{
+    "projectName": "awschatbot",
+    "projectPath": "C:\\Users\\avera\\Documents\\personal\\aws-chatbot",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "C:\\Users\\avera\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "none",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "dist",
+            "BuildCommand": "npm.cmd run-script build",
+            "StartCommand": "npm.cmd run-script start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "C:\\Users\\avera\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-provider-awscloudformation"
+    }
+}

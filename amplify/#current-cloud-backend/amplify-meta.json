@@ -1,0 +1,51 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "awschatbot-20190102110557-authRole",
+			"UnauthRoleArn": "arn:aws:iam::974570573826:role/awschatbot-20190102110557-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::974570573826:role/awschatbot-20190102110557-authRole",
+			"Region": "us-west-2",
+			"DeploymentBucketName": "awschatbot-20190102110557-deployment",
+			"UnauthRoleName": "awschatbot-20190102110557-unauthRole",
+			"StackName": "awschatbot-20190102110557",
+			"StackId": "arn:aws:cloudformation:us-west-2:974570573826:stack/awschatbot-20190102110557/ad676c20-0eb0-11e9-97ee-064c426727f4"
+		}
+	},
+	"auth": {
+		"cognito079e4a57": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/awschatbot-20190102110557-deployment/amplify-cfn-templates/auth/cognito079e4a57-cloudformation-template.yml",
+				"logicalId": "authcognito079e4a57"
+			},
+			"lastPushTimeStamp": "2019-01-02T17:16:05.224Z",
+			"output": {
+				"IdentityPoolId": "us-west-2:9ae2dccc-08be-4c57-854b-d3d451cec1b3",
+				"IdentityPoolName": "awschatbot_identitypool_c317e4ed"
+			},
+			"lastPushDirHash": "6WjxGHG00qznG7E/HPOLvQ0ug14="
+		}
+	},
+	"interactions": {
+		"lex759fb3cb": {
+			"service": "Lex",
+			"providerPlugin": "awscloudformation",
+			"build": true,
+			"lastBuildTimeStamp": "2019-01-02T17:14:57.977Z",
+			"lastPackageTimeStamp": "2019-01-02T17:14:58.137Z",
+			"distZipFilename": "lex759fb3cb-1546449297-latest-build.zip",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/awschatbot-20190102110557-deployment/amplify-cfn-templates/interactions/lex759fb3cb-cloudformation-template.json",
+				"logicalId": "interactionslex759fb3cb"
+			},
+			"lastPushTimeStamp": "2019-01-02T17:16:05.224Z",
+			"output": {
+				"FunctionArn": "arn:aws:lambda:us-west-2:974570573826:function:awschatbot_cfnlambda_e65b29eb",
+				"Region": "us-west-2",
+				"BotName": "ScheduleAppointment"
+			},
+			"lastPushDirHash": "Yz2ejzwVDJpLdBcMIxweK5jfZ9Q="
+		}
+	}
+}

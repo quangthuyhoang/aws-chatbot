@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "awschatbot-20190102110557-authRole",
+            "UnauthRoleArn": "arn:aws:iam::974570573826:role/awschatbot-20190102110557-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::974570573826:role/awschatbot-20190102110557-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "awschatbot-20190102110557-deployment",
+            "UnauthRoleName": "awschatbot-20190102110557-unauthRole",
+            "StackName": "awschatbot-20190102110557",
+            "StackId": "arn:aws:cloudformation:us-west-2:974570573826:stack/awschatbot-20190102110557/ad676c20-0eb0-11e9-97ee-064c426727f4"
+        }
+    }
+}
